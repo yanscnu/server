@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+/*导入图标样式插件*/
+@import url(../../include/css/Font-Awesome-3.2.1/css/font-awesome.min.css);
+/*公共*/
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	/* background-color: #3992d0; */
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover, a:linked {
+	color: #000;
+}
+input,textarea{
+    outline: none;
+}
+.clear {
+	clear: both;
+}
+
+frameset {
+	border: 0px;
+}
+
+frame {
+	border: 0px;
+}
+.bg {
+    background: #E3EDF9;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+/*header.php*/
+.header {
+	padding: 0 20px;
+	height: 100%;
+}
+.header .header-left {
+	float: left;
+	width: 20%;
+}
+.header-left span a{
+	display:inline-block;
+	color:#FFFFFF;
+	height:55px;
+	line-height: 55px;
+	font-size: 22px;
+}
+.header .header-center{
+	float:left;
+	width:50%;
+	margin-left:7%;
+}
+.header .header-center ul li{
+	display: inline-block;
+}
+.header-center ul li a{
+	display: inline-block;
+	height: 55px;
+	width: 80px;
+	line-height: 55px;
+	text-align: center;
+}
+.header-center ul li a:HOVER{
+	background-color: #0099FF;
+}
+.header .header-right {
+	float: right;
+}
+.header-right .icon{
+	display:inline-block;
+	height:55px;
+	line-height:55px;
+	background-position: 0 5px;
+}
+.header-right .icon i{
+	color: #FFBA39;
+}
+.header-right span{
+	display:inline-block;
+	color:#ffffff;
+	height:55px;
+	line-height: 55px;
+	font-size: 14px;
+}
+.header-right .name{
+}
+/**
+ * 内容页 的头部    
+ */
+.content-header{
+    width: 100%;
+    height: 40px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #D2D4D7;
+}
+.content-header .left{
+    padding-left: 15px;
+    float: left;
+}
+.content-header .right{
+    float: right;
+    padding-right: 15px;
+}
+.content-header div span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+} 
+
+/**
+ *  表格样式
+ */
+.table {
+	width: 100%;
+	padding: 20px 5%;
+	text-align: center;
+	border: none;
+}
+.table tr{
+    height: 40px;
+}
+.table tr:nth-child(odd){
+    background: #FFFFFF;
+}
+.table tr:nth-child(even){
+	background: #F9F9F9;
+}
+.table tr:FIRST-CHILD th{
+	border-bottom: 2px solid #DDDDDD;
+}
+.table tr td{
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/*文章管理下的页面的导航条*/
+.aheader {
+	color: #000;
+	margin-top: 45px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #888;
+}
+
+.aheader ul li {
+	float: left;
+	height: 45px;
+	width: 100px;
+	margin-right: 20px;
+	background-color: #569bcc;
+	text-align: center;
+}
+
+.aheader ul li a {
+	height: 45px;
+	width: 100px;
+	line-height: 45px;
+	color: #fff;
+	display: block;
+}
+
+.aheader ul li a:hover {
+	background-color: #2bacbf;
+}

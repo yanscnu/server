@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+body{font-family:'微软雅黑';padding: 0;margin: 0;}
+div,h2,h4{padding: 0;margin: 0;}
+p{ margin:0;}
+.header{
+	background:url(../img/topbg.jpg);
+	width:100%;
+	text-align:center;
+}
+.header h2{
+	height:2.4em;
+	line-height:2.4em;
+	font-size:1.4em;
+	color:#fff;
+	font-weight:400;
+}
+.evaluate{
+}
+.explain{
+	background: #DEEAF8;
+	padding: 10px 0;
+}
+.explain h4{
+	text-align: center;
+	padding: 10px;
+}
+.explaincon{
+	margin:0 auto;
+	width:80%; 
+	line-height:1.8em;
+	font-size:1em;
+	}
+.explaincon p{
+	font-size: 1em;
+	text-indent: 2em;
+}
+
+h2{
+	font-size:1.5em;
+	line-height:3em;
+	font-weight:400;
+	text-align:center;
+	}
+	
+/*习题*/
+.practice_content{
+	text-align: left;
+	padding: 10px 10% 0 10%;
+}
+.submit{
+	text-align: left;
+	padding: 0 10%;
+}
+.submit .submitbtn{
+	display:inline-block;
+	background:#F3F3F3;
+	border:1px solid #CDCDCD;
+	border-radius:10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}

@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+body{	background:url(../img/artdetailleft.jpg) repeat-y;
+	background-size: 4% 100%; position:relative;}
+.container{
+	padding: 0 7%;
+}
+.art-header{
+	text-align:center;
+}
+.art-header h3{
+	font-size:16px;
+	line-height:25px;
+}
+.art-content img,.art-content video{
+	max-width:100% !important;
+	height:auto !important;
+	}
+
+.header{
+	background:url(../img/topbg.jpg);
+	width:100%;
+	text-align:center;
+}
+.header h2{
+	margin:0;
+	height:2.4em;
+	line-height:2.4em;
+	font-size:1.4em;
+	color:#fff;
+	font-weight:400;
+}
+.detail_top{
+	background:url(../img/artdetailtop.jpg) no-repeat; background-size:100% 100%;
+	width:100%;
+	height:1.2em;
+	}
+.discuss{
+	background:#FFF;
+	position:relative; bottom:0px; width:100%;
+	}
+.discuss ul{
+	overflow-y:scroll;
+	max-height:400px;
+	padding-left:0px;
+	margin:0px;
+	}
+.discuss  h4{
+	margin:0;
+	background:#e8e8e8;
+	color:#444444;
+	font-size: 1em;
+	text-align:left;
+	padding: 0.8em 0 0.5em 2.2em;
+	border-bottom: 2px solid #3bbaef;
+}
+.discuss h5{
+	margin:0em 0em 0.5em 0em;
+	font-size:1em;
+	color:#3bbaef;
+	font-family:'微软雅黑';
+	line-height:1.2em;
+	}
+.discuss span.floor{ color:#09F;}
+.discuss span.reply{ color:#444; margin:0 0.3em;}
+.discuss span.time{ color:#444; font-size:0.6em; margin-left:1em; }
+.discuss li#d1{ border-bottom:1px #e6e6e6 solid; list-style-type:none; padding:1em 0em 1em 1em;}
+.discuss div#d2{border:1px #e6e6e6 solid; margin:0.5em 0.5em 0.5em 1em;padding:0.5em 0em 1em 1em;}
+.discuss #dbox{ height:45px; background:#e8e8e8;}
+.discuss #dbox input{outline:none; float:left; width:70%; height:35px; font-size:20px;border:0px;background-color:transparent; border-bottom:1px #444444 solid; margin:0px 5px;}
+.discuss #dbox button{ outline:none; float:right; width:20%; height:35px; border:0px; background:#8ed2ef; margin:5px;font-size:1.1em;font-family:'微软雅黑';}
+.replyimg{ float:right; margin-right:2em; display:inline-block; width:1em; height:1em; background:url(../img/discuss.png) no-repeat; background-size:100% 100%;}
+
+.discuss #rbox{ height:45px; background:#e8e8e8;}
+.discuss #rbox input{outline:none; float:left; width:70%; height:35px; font-size:20px;border:0px;background-color:transparent; border-bottom:1px #444444 solid; margin:0px 5px;}
+.discuss #rbox button{ outline:none; float:right; width:20%; height:35px; border:0px; background:#8ed2ef; margin:5px; font-size:1.1em;font-family:'微软雅黑';}
+.discuss .del{ color:#F93; font-size:0.6em;float:right; margin-right:2em;}
+.right{
+	position:fixed;
+	top:4.8em;
+	right:-2.3em;
+	}
+.right ul li{
+	line-height:2em;
+	list-style-type:none;
+	padding:0.3em 0.3em 0.3em 1.3em;
+	margin-bottom:0.2em ;
+	}	
+.right ul li a{
+	text-decoration:none;
+	color:#fff;
+	}
+.right ul li a.active{
+	color: #666;
+	cursor: text;
+}
+
+.block1{
+	background-color: #8ed2ef !important;
+}
+.block2{
+	background-color: #3bbaf1 !important;
+}
+.block3{
+	background-color: #3994bb !important;
+}
+.preandnext{ margin:0px auto; text-align:center;}
+.preandnext a,.preandnext div{
+	display:inline-block;
+	background-color:#79CAFF;
+	width:5em;
+	height:2em;
+	line-height:2em;
+	color:#FFF;
+	margin-bottom:0.4em;
+	text-align:center;  
+	text-decoration:none;
+	position:relative;
+	}
+.preandnext div span{ font-size:0.8em;}
+.preandnext div	ul{ padding:0; margin:0px; position:absolute; bottom:2em;}

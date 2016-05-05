@@ -1,0 +1,54 @@
+.container{
+	width: 100%;
+}
+.container .search{
+	padding:20px 80px;
+}
+.container .search label,.container .search input{
+	height: 22px;
+	line-height: 22px;
+}
+.container .search input[type=text]{
+	outline:none;
+	border: 1px solid #A9A9A9;
+}
+.container .search input[type=text]:focus{
+	border: 1px solid #5CA0CF;
+}
+.container .search input[type=submit]{
+	width: 50px;
+	height: 30px;
+	line-height:30px;
+	border:none;
+	background-color:#A9A9A9;
+	cursor: pointer;
+}
+.container .search input[type=submit]:hover{
+	background-color: #FF6600;
+	color: #FFFFFF;
+}
+/**
+* 文章添加页面与文章修改页面用到的样式
+*/
+.artadd{
+	width: 1000px;
+	padding: 20px 80px;
+}
+.addartleft{width:450px;float: left;}
+.addartleft span{ font-size:18px;}
+.addartleft input{height:25px; outline:none; margin-left:10px;}
+.addartleft input#title{width: 250px; }
+.addartleft input#author{ width:250px;}
+.addartleft input#sort{ width:250px;}
+.addartleft select{margin-left:10px;width:60px; height:25px;outline:none;}
+.addartleft textarea{ vertical-align:top;outline:none;}
+.addartleft input#state{ vertical-align:bottom;}
+.addartleft input#Attribute{vertical-align:middle;}
+.addartleft input#submit,.addartleft input#reset{height:30px; width:120px; background:#FFF; border:1px #666666 solid;font-family:'宋体';outline:none; cursor:pointer;}
+
+/*artadd.php、artmod.php编辑器样式*/
+.ueditor{float: left;}
+
+label.errorClass{
+	color: red;
+}

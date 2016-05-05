@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+.header{
+	background:url(../img/topbg.jpg);
+	width:100%;
+	text-align:center;
+}
+.header h2{
+	margin:0;
+	height:2.4em;
+	line-height:2.4em;
+	font-size:1.4em;
+	color:#fff;
+	font-weight:400;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+/*  */
+.container .brief{
+	text-align:center;
+	background: #DBEBFF;
+}
+.brief h3{
+	padding:6px 0;
+	color:#333;
+	margin:0;
+	height:1.8em;
+	line-height:1.8em;
+	font-size:1em;
+	border-bottom: 2px solid #3bbaef;
+}
+.brief .sub{
+	width: 100%;
+	background: #fff;
+	/*background: #F5F5F6;*/
+	padding-bottom: 10px;
+	border-bottom:#d1d1d1 2px solid;
+}
+.brief .sub h4{
+	margin:0;
+	border-bottom:#d1d1d1 2px solid;
+	color:#444444;
+	font-size: 1em;
+	text-align:left;
+	padding: 0.8em 0 0.5em 2.2em;
+}
+.brief .sub div{
+	width: 80%;
+	margin: 0 auto;
+	background: white;
+	text-align: left;
+	padding: 1em 0 1em 1em;
+	color:#444444;
+	
+}
+.brief .sub h4#introduce{background:url(../img/c1.png) no-repeat 0.8em 0.8em; background-size:1.3em 1.3em;}
+.brief .sub h4#target{background:url(../img/c2.png) no-repeat 0.8em 0.8em; background-size:1.3em 1.3em;}
+.brief .sub div span{
+	text-align: left;
+}
+.container .art-list{
+}
+.art-list a{
+	padding:0;
+	display: inline-block;
+	width: 27%;
+	height: 10em;
+	line-height:10em; 
+	text-align: center;
+	text-decoration: none;
+	margin:1em 3% 0 3%;
+	color:#fff;
+}
+.art-list .block1{
+	background-color: #8ed2ef;
+}
+.art-list .block2{
+	background-color: #3bbaf1;
+}
+.art-list .block3{
+	background-color: #3994bb;
+}
+.art-list .block4{
+	background-color: #F86E6E;
+}
+.curriculum_page{
+	height:30px;
+	padding: 0 6% 0 7%;
+}
+.curriculum_page p{
+	margin:0;
+	padding:0;
+}
+
+.curriculum_page a{
+	display:inline-block;
+	background-color:#79CAFF;
+	width:5em;
+	height:2em;
+	line-height:2em;
+	color:#FFF;
+	margin-top:0.4em;
+	text-align:center;  
+	text-decoration:none;
+	}
+
+.practice{
+	margin-top:1em;
+	}
+
+.practice .sub h4, .discuss .sub h4{
+	margin:0;
+	background:#e8e8e8;
+	color:black;
+	font-size: 1em;
+	text-align:left;
+	padding: 0.8em 0 0.5em 2.2em;
+	border-bottom: 2px solid #3bbaef;
+}
+.practice .sub div, .discuss .sub div{
+	background: white;
+	border-bottom: 2px dashed #F2F1F1; 
+}
+.practice .sub div:last-child, .discuss .sub div:last-child{
+	border-bottom: none;
+}
+.practice .sub div p, .discuss .sub p{
+	line-height:24px;
+	font-size:16px;
+	text-indent: 32px;
+}

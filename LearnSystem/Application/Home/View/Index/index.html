@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<css href="__PUBLIC__/{$Think.MODULE_NAME}/css/index.css" />
+<js href="__PUBLIC__/{$Think.MODULE_NAME}/js/index.js" />
+
+<taglib name='Common\Mylib\Taglib\MyTag' />
+<mytag:module_css href='index.css'/>
+<mytag:jquery />
+<mytag:bootstrap />
+
+</head>
+<body>
+	<h2>测试</h2>
+	<a href="{:U('Home/Index/login')}">登录</a>
+	<img alt="找不到图片" width="50px" src="__PUBLIC__/{$Think.MODULE_NAME}/images/adminbg.jpg">
+	<p>__APP__</p>
+	<p>__MODULE__</p>
+	<p>__CONTROLLER__</p>
+	<p>__ACTION__</p>
+	<p>__PUBLIC__</p>
+	<p>__ROOT__</p>
+</body>
+</html>

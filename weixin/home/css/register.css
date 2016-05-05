@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	position:absolute;
+	font-family:'微软雅黑';
+}
+
+.top{
+	width:100%;
+}
+	
+.top img{
+	width:100%;
+}
+.student_name{
+	background:url(../img/register/user.png) no-repeat 5%; 
+	background-size:auto 30px;
+	width:100%; 
+	height:10%;
+}	
+.registerForm .input{
+    height:20px; 
+    width:75%;  
+    text-indent: 15px;
+    border:none;
+    border-left: 2px solid #BFBFBF;
+    background-color:transparent; 
+    margin:6% 0 6% 20%;
+    outline:none; 
+    color:#ababab; 
+    font-size:1em; 
+    font-family:'微软雅黑';
+}
+.error{
+    margin: 6% 0 6% 20%;
+    color: red;
+    clear: both;
+}
+.student_password{
+	background:url(../img/register/lock.png) no-repeat 5%; 
+	background-size:auto 30px;
+	width:100%; height:10%;
+}
+.student_phone{
+	background:url(../img/register/user.png) no-repeat 5%; 
+	background-size:auto 30px;
+	width:100%; height:10%;
+}
+.student_code{
+    width:100%; 
+    height:10%;
+}
+.student_code .input{
+    float: left;
+    width:60%; 
+    margin:5% 0 6% 4%;
+}
+.student_code .code{
+    /*background:url(../img/register/user.png) no-repeat 5%; 
+    background-size:auto 30px;
+    width:100%; height:10%;*/
+    /*border-bottom:#e4e4e4 1px solid;*/
+   width: 30%;
+   margin:5% 0 6% 0;
+   float: left;
+   text-align: center;
+}
+.code img{
+    width: 100%;
+}
+.code a{
+    font-size: 10px;
+}
+.otherlink a{
+	text-align:center;
+	display:inline-block;
+	width:48%;
+	color:#ababab;
+	text-decoration:none;
+	margin-top:8%;
+}
+.submitbtn{ 
+    width:84%;
+    margin:10% auto;
+}
+.submitbtn button{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	font-size: 16px;
+	outline: none;
+	border:none;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	background-color: #F47272;
+}
+.footer{ 
+    color:#33b6ec; 
+    font-weight:bold; 
+    font-size:1.2em; 
+    text-align:center; 
+    margin:3% 0;
+}	
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}	
+.split{
+    background-color: #BFBFBF;
+    width: 100%;
+    height: 3px;
+}	

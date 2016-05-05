@@ -1,0 +1,10 @@
+<div class="content-header" style="background:url(../images/content/hengtiao.jpg)">
+    <div class="left"><span><i class="icon-home icon-large"></i>&nbsp;<?php if(isset($page_name)){echo $page_name;}else{echo '首页';}?></span></div>
+    <div class="right"><span><i class="icon-calendar icon-large"></i>
+        <?php echo date('Y年m月d日');?>&nbsp;
+        <?php 
+            $weekArr = array('星期一','星期二','星期三','星期四','星期五','星期六','星期天');
+            echo $weekArr[date('N')];
+        ?>
+    </span></div>
+</div>

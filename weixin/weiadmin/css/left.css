@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+* {
+	font-family: '微软雅黑';
+	font-size: 12px;
+	color: #626262;
+}
+#leftnav{
+    height: 100%;
+    border-right: 1px solid #D2D4D7;
+}
+.search{
+    width: 100%;
+    background: #F5F5F5;
+    height: 40px;
+    border-bottom: 1px solid #D2D4D7;
+}
+.search span{
+    display: inline-block;
+    width: 90%;
+    margin: 5px 5%;
+    background-color:#E3E3E3;
+    border: none;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.search span i{
+    height:25px;
+    margin-left: 5px;
+}
+.search span input{
+    height:25px;
+    background-color:#E3E3E3;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+dl, dt, dd {
+	display: block;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*left*/
+.leftsidebar_box {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.leftsidebar_box dl{
+    background-color: #FFFFFF;
+}
+
+.leftsidebar_box dt {
+	padding: 0 10px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #000000;
+	font-size: 14px;
+	position: relative;
+	height: 48px;
+	line-height: 48px;
+	cursor: pointer;
+}
+.leftsidebar_box dt i{
+    width: 20px;
+    height: 48px;
+    line-height: 48px;
+    color: #343342;
+}
+.leftsidebar_box dt i:first-child{
+    float: left;
+}
+.leftsidebar_box dt i:last-child{
+    float: right;
+}
+.leftsidebar_box dt span{
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+}
+.leftsidebar_box dt img {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.leftsidebar_box dd {
+	/* background-color: #317eb4; */ /*padding-left:40px;*/
+}
+
+.leftsidebar_box dd a {
+	display: block;
+	width: 100%;
+	color: #000000;
+	line-height: 40px;
+	text-align: center;
+}
+.leftsidebar_box dl dd:last-child {
+	padding-bottom: 10px;
+}
+
+.exit a {
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.leftsidebar_box dd a:hover {
+	background-color: #D6D6D6;
+}
+
+.focus {
+	background-color: #D6D6D6;
+}
