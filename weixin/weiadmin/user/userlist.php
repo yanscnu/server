@@ -72,8 +72,6 @@
     
 ?>
 
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -127,7 +125,7 @@
 		  <td><?php echo $value;?></td>
 		  <td>
     	      <?php 
-    		      if(is_array($student_data[$key]) && isset($student_data[$key]['login_count'])) {
+    		      if(isset($student_data) && is_array($student_data[$key]) && isset($student_data[$key]['login_count'])) {
     		          echo $student_data[$key]['login_count'];
     		      }else {
     		          echo '--';
@@ -136,7 +134,7 @@
 		  </td>
 		  <td>
     		  <?php 
-    		      if(is_array($student_data[$key]) && isset($student_data[$key]['online_time'])) {
+    		      if(isset($student_data) && is_array($student_data[$key]) && isset($student_data[$key]['online_time'])) {
     		          echo $student_data[$key]['online_time'];
     		      }else {
     		          echo '--';
@@ -145,7 +143,7 @@
 	      </td>
 		  <td>
     		  <?php 
-    		      if(is_array($student_data[$key]) && isset($student_data[$key]['dis_count'])) {
+    		      if(isset($student_data) && is_array($student_data[$key]) && isset($student_data[$key]['dis_count'])) {
     		          echo $student_data[$key]['dis_count'];
     		      }else {
     		          echo '--';
@@ -155,7 +153,7 @@
 		  
 		  <td>
     	      <?php 
-    		      if(is_array($student_data_all[$key]) && isset($student_data_all[$key]['login_count'])) {
+    		      if(isset($student_data_all) && is_array($student_data_all[$key]) && isset($student_data_all[$key]['login_count'])) {
     		          echo $student_data_all[$key]['login_count'];
     		      }else {
     		          echo '--';
@@ -164,7 +162,7 @@
 		  </td>
 		  <td>
     		  <?php 
-    		      if(is_array($student_data_all[$key]) && isset($student_data_all[$key]['online_time'])) {
+    		      if(isset($student_data_all) && is_array($student_data_all[$key]) && isset($student_data_all[$key]['online_time'])) {
     		          echo $student_data_all[$key]['online_time'];
     		      }else {
     		          echo '--';
@@ -173,7 +171,7 @@
 	      </td>
 		  <td>
     		  <?php 
-    		      if(is_array($student_data_all[$key]) && isset($student_data_all[$key]['dis_count'])) {
+    		      if(isset($student_data_all) && is_array($student_data_all[$key]) && isset($student_data_all[$key]['dis_count'])) {
     		          echo $student_data_all[$key]['dis_count'];
     		      }else {
     		          echo '--';
